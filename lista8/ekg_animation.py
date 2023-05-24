@@ -11,7 +11,7 @@ fig.set_size_inches(8, 5)
 
 def animate(i):
     ax.clear()
-    ax.plot(data, "green")  # Zmiana koloru wykresu na zielony
+    ax.plot(data, "green")
     ax.set_xlim(left=i, right=i + 400)
     ax.set_ylim([-2, 2])
 
